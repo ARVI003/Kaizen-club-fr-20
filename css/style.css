@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background: #010131;
+}
+
+#cold {
+  background: #010131;
+  padding: 70px 0;
+}
+#cold .cold--summer {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+#cold .cold--tame {
+  width: 98%;
+  height: 600px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+#cold .cold--tame--tiger {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+#cold .cold--tame--tiger--under {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+}
+#cold .cold--tame--tiger--wife {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+}
+#cold .cold--tame--tiger--wife span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+}
+#cold .cold--tame--winter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 23px;
+}
+#cold .cold--tame--winter--woman--bird {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+}
+#cold .cold--tame--winter--woman--boss {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #2C3E50;
+  margin-left: -10px;
+  margin-bottom: 10px;
+}
+#cold .cold--tame--winter--woman--boss ion-icon {
+  color: #397003;
+  margin: 0 10px;
+}
+#cold .cold--tame--winter--woman--firm--fisher {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+}
+#cold .cold--tame--winter--woman--firm--girl {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #2C3E50;
+}
+#cold .cold--tame--winter--woman--firm--girl span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2C3E50;
+}
+
+#green {
+  background: #010132;
+  padding: 60px 0;
+}
+#green .green {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#green .green--grammar--hurt {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+#green .green--grammar--master {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9099A3;
+}
+#green .green--merchant--mistress {
+  margin-bottom: 30px;
+}
+#green .green--merchant--mistress--mosque {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9099A3;
+}
+#green .green--merchant--mistress input {
+  width: 616px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.99);
+  padding: 0 74px;
+}
+#green .green--merchant--myrtle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#green .green--merchant--myrtle--person {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#green .green--merchant--myrtle--purple {
+  width: 280px;
+  height: 60px;
+  background: #1A5CFF;
+  box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+#green .green--merchant--myrtle--purple:hover {
+  border: 2px solid #1A5CFF;
+  background: transparent;
+  color: #1A5CFF;
+}
+
+#deceit {
+  background: #010132;
+  padding: 60px 0;
+}
+#deceit .deceit .swiper {
+  width: 100%;
+  height: 100%;
+}
+#deceit .deceit .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#deceit .deceit .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#deceit .deceit--habit {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin: 0 0 0 250px;
+}
+#deceit .deceit--eleven {
+  background: #010132;
+  width: 100%;
+  padding-top: 60px;
+}
+#deceit .deceit--eleven--life {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+#deceit .deceit--eleven--life--mini {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 96px;
+  color: #FFFFFF;
+  margin-left: -70px;
+}
+#deceit .deceit--eleven--nice {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+#deceit .deceit--eleven--nice--pencil {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin-left: 90px;
+}
+#deceit .deceit--eleven--place {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#deceit .deceit--eleven--place--sentence {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
