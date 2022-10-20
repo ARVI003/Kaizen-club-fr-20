@@ -2,9 +2,20 @@
   .container{
     width: 90%;
   }
+  #header .header .menu__btn {
+    display: none;
+  }
 }
 
 @media (max-width: 1200px) {
+
+  #header .header .menu__btn {
+    display: none;
+  }
+
+  #header .header--btn {
+    margin-left: 160px;
+  }
   #deceit .deceit--eleven--life--mini {
     font-size: 49px;
   }
@@ -51,14 +62,33 @@
     margin-bottom: 42px;
   }
 
+  #header .header .menu__btn {
+    display: none;
+  }
 
+  #header .header--btn {
+    margin-left: 160px;
+  }
+
+  #arvi .arvi--global__group--btn {
+    width: 330px;
+  }
 
 }
 
 @media (max-width: 992px) {
 
+  #header .header .menu__btn {
+    display: none;
+  }
 
+  #header .header--btn {
+    margin-left: 160px;
+  }
 
+  #arvi .arvi--global {
+    width: 871px;
+  }
 
 }
 
@@ -81,7 +111,21 @@
     width: 541px;
   }
 
+  #header .header--btn {
+    display: none;
+  }
 
+  #header .header--see {
+    display: none;
+  }
+
+  #header .header .menu__btn {
+    display: block;
+  }
+
+  #arvi .arvi--global {
+    width: 871px;
+  }
 
 }
 
@@ -132,7 +176,13 @@
     margin-bottom: 27px;
   }
 
+  #header .header--btn {
+    display: none;
+  }
 
+  #header .header--see {
+    display: none;
+  }
 
 }
 
@@ -182,7 +232,14 @@
     width: 252px;
   }
 
+  #header .header--btn {
+    margin-left: 200px;
+    display: none;
+  }
 
+  #header .header--see {
+    display: none;
+  }
 
 }
 
@@ -190,6 +247,14 @@
 
   #green .green--merchant--mistress input {
     width: 235px;
+  }
+
+  #header .header--btn {
+    display: none;
+  }
+
+  #header .header--see {
+    display: none;
   }
 
 }
@@ -245,7 +310,17 @@
     width: 195px;
   }
 
+  #header .header--btn {
+    display: none;
+  }
 
+  #header .header--see {
+    display: none;
+  }
+
+  #header .header #menu__toggle:checked ~ .menu__box {
+    max-width: min-content;
+  }
 
 }
 
@@ -253,6 +328,19 @@
   #cold .cold--tame {
     height: 1018px;
   }
+
+  #header .header--btn {
+    display: none;
+  }
+
+  #header .header--see {
+    display: none;
+  }
+
+  #header .header #menu__toggle:checked ~ .menu__box {
+    max-width: min-content;
+  }
+
 }
 
 @media (max-width: 320px) {
@@ -300,6 +388,16 @@
     width: 138px;
   }
 
-  
+  #header .header--btn {
+    display: none;
+  }
+
+  #header .header--see {
+    display: none;
+  }
+
+  #header .header #menu__toggle:checked ~ .menu__box {
+    max-width: min-content;
+  }
 
 }
