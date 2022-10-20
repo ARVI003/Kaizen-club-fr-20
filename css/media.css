@@ -95,6 +95,19 @@
   }
 }
 @media (max-width: 576px) {
+  #hero .hero--text--terco {
+    font-size: 32px;
+  }
+  #hero .hero--text--zento {
+    font-size: 18px;
+  }
+  #hero .hero--text__btn--red {
+    width: 155px;
+    font-size: 16px;
+  }
+  #hero .hero--text__btn--black {
+    height: 39px;
+  }
   #deceit .deceit--eleven--life {
     flex-direction: column;
     margin-left: 43px;
@@ -134,6 +147,22 @@
   }
 }
 @media (max-width: 450px) {
+  #hero .hero--text--terco {
+    font-size: 27px;
+  }
+  #hero .hero--text--zento {
+    font-size: 16px;
+  }
+  #hero .hero--text {
+    padding: 13px 49px;
+  }
+  #hero .hero--text__btn--red {
+    width: 146px;
+    font-size: 15px;
+  }
+  #hero .hero--text__btn--black {
+    font-size: 17px;
+  }
   #cold .cold--tame--tiger--under {
     font-size: 11px;
   }
@@ -247,6 +276,21 @@
   }
 }
 @media (max-width: 320px) {
+  #hero .hero--text--terco {
+    font-size: 23px;
+  }
+  #hero .hero--text--zento {
+    font-size: 14px;
+  }
+  #hero .hero--text__btn--red {
+    width: 115px;
+    font-size: 12px;
+  }
+  #hero .hero--text__btn--black {
+    width: 77px;
+    height: 37px;
+    font-size: 15px;
+  }
   #cold .cold--tame {
     height: 1020px;
   }
