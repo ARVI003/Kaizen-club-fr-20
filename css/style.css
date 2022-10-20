@@ -546,6 +546,80 @@ body {
   color: #FFFFFF;
 }
 
+#fat .call {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 30px 0;
+}
+#fat .fat {
+  margin-bottom: 55px;
+}
+#fat .fat--plan {
+  display: flex;
+  justify-content: center;
+}
+#fat .fat--plan__good {
+  margin: 0 15px;
+}
+#fat .fat--plan__good--sent {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin: 0 60px;
+}
+#fat .fat--plan__good img {
+  margin: 0 90px;
+}
+#fat .fat--plan__good--btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#fat .fat--plan__good--rico {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#fat .fat--arvi {
+  display: flex;
+  justify-content: center;
+}
+#fat .fat--arvi__gold {
+  margin: 0 20px;
+}
+#fat .fat--arvi__gold--see {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin: 0 45px;
+}
+#fat .fat--arvi__gold img {
+  margin: 0 70px;
+}
+#fat .fat--arvi__gold--both {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#fat .fat--arvi__gold--rico {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 #glass .seep {
   font-weight: 700;
   font-size: 36px;

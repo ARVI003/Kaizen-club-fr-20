@@ -626,6 +626,86 @@ body{
   }
 }
 
+#fat{
+  .call{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 30px 0;
+  }
+  .fat{
+    margin-bottom: 55px;
+    &--plan{
+      display: flex;
+      justify-content: center;
+      &__good{
+        margin: 0 15px;
+        &--sent{
+          font-weight: 900;
+          font-size: 36px;
+          line-height: 54px;
+          color: #FFFFFF;
+          margin: 0 60px;
+        }
+        img{
+          margin: 0 90px;
+        }
+        &--btn{
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 21px;
+          text-align: center;
+          color: #FFFFFF;
+
+        }
+        &--rico{
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          text-align: center;
+          color: #FFFFFF;
+
+        }
+      }
+    }
+    &--arvi{
+      display: flex;
+      justify-content: center;
+      &__gold{
+        margin: 0 20px;
+        &--see{
+          font-weight: 900;
+          font-size: 36px;
+          line-height: 54px;
+          color: #FFFFFF;
+          margin: 0 45px;
+        }
+        img{
+          margin: 0 70px;
+        }
+        &--both{
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 21px;
+          text-align: center;
+          color: #FFFFFF;
+
+        }
+        &--rico{
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          text-align: center;
+          color: #FFFFFF;
+
+        }
+      }
+    }
+  }
+}
+
 #glass{
   .seep{
     font-weight: 700;
