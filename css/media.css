@@ -2,8 +2,17 @@
   .container {
     width: 90%;
   }
+  #header .header .menu__btn {
+    display: none;
+  }
 }
 @media (max-width: 1200px) {
+  #header .header .menu__btn {
+    display: none;
+  }
+  #header .header--btn {
+    margin-left: 160px;
+  }
   #deceit .deceit--eleven--life--mini {
     font-size: 49px;
   }
@@ -37,6 +46,26 @@
   #green .green--grammar--master {
     margin-bottom: 42px;
   }
+  #header .header .menu__btn {
+    display: none;
+  }
+  #header .header--btn {
+    margin-left: 160px;
+  }
+  #arvi .arvi--global__group--btn {
+    width: 330px;
+  }
+}
+@media (max-width: 992px) {
+  #header .header .menu__btn {
+    display: none;
+  }
+  #header .header--btn {
+    margin-left: 160px;
+  }
+  #arvi .arvi--global {
+    width: 871px;
+  }
 }
 @media (max-width: 768px) {
   #deceit .deceit--habit {
@@ -51,6 +80,18 @@
   }
   #green .green--merchant--mistress input {
     width: 541px;
+  }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
+  }
+  #header .header .menu__btn {
+    display: block;
+  }
+  #arvi .arvi--global {
+    width: 871px;
   }
 }
 @media (max-width: 576px) {
@@ -84,6 +125,12 @@
   }
   #green .green--merchant--myrtle--person {
     margin-bottom: 27px;
+  }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
   }
 }
 @media (max-width: 450px) {
@@ -119,10 +166,23 @@
   #green .green--merchant--mistress input {
     width: 252px;
   }
+  #header .header--btn {
+    margin-left: 200px;
+    display: none;
+  }
+  #header .header--see {
+    display: none;
+  }
 }
 @media (max-width: 425px) {
   #green .green--merchant--mistress input {
     width: 235px;
+  }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
   }
 }
 @media (max-width: 380px) {
@@ -162,10 +222,28 @@
   #green .green--merchant--mistress input {
     width: 195px;
   }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
+  }
+  #header .header #menu__toggle:checked ~ .menu__box {
+    max-width: min-content;
+  }
 }
 @media (max-width: 370px) {
   #cold .cold--tame {
     height: 1018px;
+  }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
+  }
+  #header .header #menu__toggle:checked ~ .menu__box {
+    max-width: min-content;
   }
 }
 @media (max-width: 320px) {
@@ -198,6 +276,15 @@
   }
   #green .green--merchant--mistress input {
     width: 138px;
+  }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
+  }
+  #header .header #menu__toggle:checked ~ .menu__box {
+    max-width: min-content;
   }
 }
 
