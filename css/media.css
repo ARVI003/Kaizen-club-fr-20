@@ -15,6 +15,9 @@
   #letter .letter--faq--question {
     width: 891px;
   }
+  #into .into--loogin--btn5 {
+    margin-left: 477px;
+  }
 }
 @media (max-width: 1200px) {
   #header .header .menu__btn {
@@ -31,6 +34,9 @@
   }
   #letter .letter--faq--question {
     width: 735px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 393px;
   }
 }
 @media (max-width: 1024px) {
@@ -97,6 +103,14 @@
   #glass .play {
     font-size: 14px;
   }
+  #into .into--loogin--btn5 {
+    margin-left: 313px;
+  }
+  #into .into--modal--bg--fair {
+    width: 834px;
+    height: 600px;
+    margin: 115px 0 0 0;
+  }
 }
 @media (max-width: 992px) {
   #header .header .menu__btn {
@@ -133,6 +147,14 @@
   #arvi .arvi--global__group--btn {
     width: 330px;
     margin-left: -161px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 288px;
+  }
+  #into .into--modal--bg--fair {
+    width: 680px;
+    height: 489px;
+    margin: 93px 0 0 0;
   }
 }
 @media (max-width: 768px) {
@@ -209,6 +231,18 @@
   }
   #footer .footer--sent__btn {
     margin: -15px 0 0 32px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 201px;
+  }
+  #into {
+    padding-top: 1px;
+    margin-bottom: 90px;
+  }
+  #into .into--modal--bg--fair {
+    width: 529px;
+    height: 347px;
+    margin: 71px 0 0 0;
   }
 }
 @media (max-width: 576px) {
@@ -292,6 +326,14 @@
   }
   #footer .footer--sent__see {
     margin-left: 127px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 112px;
+  }
+  #into .into--modal--bg--fair {
+    width: 404px;
+    height: 347px;
+    margin: 71px 0 0 0;
   }
 }
 @media (max-width: 450px) {
@@ -389,6 +431,14 @@
   }
   #footer .footer--sent__see {
     margin-left: 70px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 51px;
+  }
+  #into .into--modal--bg--fair {
+    width: 294px;
+    height: 347px;
+    margin: 71px 0 0 0;
   }
 }
 @media (max-width: 425px) {
@@ -500,6 +550,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 51px;
+    width: 221px;
+  }
+  #into .into--modal--bg--fair {
+    width: 230px;
+    height: 347px;
+    margin: 71px 0 0 0;
   }
 }
 @media (max-width: 370px) {
@@ -624,6 +683,15 @@
   }
   #footer .good--free {
     flex-direction: column;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 32px;
+    width: 221px;
+  }
+  #into .into--modal--bg--fair {
+    width: 185px;
+    height: 347px;
+    margin: 71px 0 0 0;
   }
 }
 
