@@ -173,7 +173,7 @@ body {
   padding: 2rem 2rem 0 76rem;
 }
 #hero .hero--text {
-  padding: 40px 70px;
+  padding: 110px 220px;
 }
 #hero .hero--text--terco {
   font-weight: 700;
@@ -229,7 +229,6 @@ body {
   background: transparent;
   border: 2px solid grey;
 }
-
 
 #cold {
   background: #010131;
@@ -1052,3 +1051,4 @@ body {
   margin: 40px 20px;
 }
 
+/*# sourceMappingURL=style.css.map */
