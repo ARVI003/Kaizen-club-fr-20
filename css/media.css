@@ -157,6 +157,128 @@
     margin: 93px 0 0 0;
   }
 }
+@media (max-width: 912px) {
+  #header .header--see {
+    display: none;
+  }
+  #header .header .menu__btn {
+    display: block;
+  }
+  #hero .hero--text {
+    padding: 264px 93px;
+  }
+  #hero .hero--text--zento {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 52px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 255px;
+  }
+  #ween .ween--see {
+    padding-left: 163px;
+  }
+  #ween .ween--sheet__block {
+    width: 500px;
+    height: 400px;
+  }
+  #deceit .deceit--habit {
+    margin: 0 0 0 169px;
+  }
+  #glass .glass {
+    flex-direction: column;
+  }
+  #letter .letter--faq--question {
+    width: 754px;
+  }
+  #footer .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  #footer .footer--rio__give {
+    display: flex;
+    margin-left: 329px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 369px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 279px;
+  }
+  #footer .footer--sent__btn {
+    margin-left: 29px;
+  }
+  #footer .footer--like__btn {
+    margin-bottom: 43px;
+  }
+}
+@media (max-width: 820px) {
+  #hero .hero--text {
+    padding: 235px 88px;
+  }
+  #header .header .header--see {
+    display: none;
+  }
+  #header .header .menu__btn {
+    display: block;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 210px;
+  }
+  #ween .ween--see {
+    padding-left: 119px;
+  }
+  #ween .ween--sheet__block {
+    width: 500px;
+    height: 392px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 123px;
+  }
+  #deceit .deceit--habit {
+    margin: 0 0 0 152px;
+  }
+  #deceit .deceit--eleven--life {
+    margin-bottom: 46px;
+    flex-direction: column;
+  }
+  #deceit .deceit--eleven--nice {
+    flex-direction: column;
+    margin-left: -154px;
+  }
+  #deceit .deceit--eleven--place {
+    flex-direction: column;
+    margin-left: -54px;
+  }
+  #glass .glass {
+    flex-direction: column;
+  }
+  #letter .letter--faq--question {
+    width: 664px;
+  }
+  #footer .footer {
+    text-align: center;
+    flex-direction: column;
+  }
+  #footer .footer--like__btn {
+    margin-bottom: 65px;
+  }
+  #footer .footer--rio__give {
+    display: flex;
+    margin-left: 293px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 332px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 230px;
+  }
+  #footer .footer--sent__btn {
+    margin: -15px 0 0 23px;
+  }
+}
 @media (max-width: 768px) {
   #deceit .deceit--habit {
     font-size: 31px;
@@ -336,6 +458,17 @@
     margin: 71px 0 0 0;
   }
 }
+@media (max-width: 540px) {
+  #cold .cold--tame {
+    height: 1177px;
+  }
+  #green .green--merchant--mistress input {
+    width: 337px;
+  }
+  #letter .letter--faq--question {
+    width: 420px;
+  }
+}
 @media (max-width: 450px) {
   #hero .hero--text--terco {
     font-size: 27px;
@@ -467,6 +600,73 @@
     height: 366px;
   }
 }
+@media (max-width: 393px) {
+  #footer .footer--rio__give {
+    margin-left: 101px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 141px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 49px;
+  }
+  #letter .letter--faq--question {
+    width: 291px;
+  }
+  #green .green--merchant--mistress input {
+    width: 206px;
+  }
+  #hero .hero--text {
+    padding: 295px 49px;
+  }
+  #cold .cold--tame--winter--woman--boss {
+    font-size: 12px;
+  }
+  #cold .cold--tame--winter--where {
+    width: 90%;
+    margin: 101px 0 0 -8px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 51px;
+    width: 239px;
+  }
+  #ween .ween--sheet__block {
+    width: 351px;
+    height: 396px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 150px;
+  }
+}
+@media (max-width: 390px) {
+  #cold .cold--tame--winter--where {
+    width: 90%;
+    margin: 101px 0 0 -8px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 23px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 154px;
+  }
+  #ween .ween--sheet__block {
+    width: 368px;
+    height: 381px;
+  }
+  #cold .cold--tame--winter--woman--boss {
+    font-size: 11px;
+  }
+  #cold .cold--tame {
+    height: 1156px;
+  }
+  #green .green--merchant--mistress input {
+    width: 207px;
+  }
+  #letter .letter--faq--question {
+    width: 285px;
+  }
+}
 @media (max-width: 380px) {
   #cold .cold--tame {
     height: 1026px;
@@ -573,6 +773,26 @@
   }
   #header .header #menu__toggle:checked ~ .menu__box {
     max-width: min-content;
+  }
+}
+@media (max-width: 360px) {
+  #hero .hero--text__btn--red {
+    margin-bottom: 20px;
+  }
+  #hero .hero--text__btn--black {
+    margin-left: 11px;
+  }
+  #cold .cold--tame {
+    height: 1110px;
+  }
+  #green .green--merchant--mistress input {
+    width: 178px;
+  }
+  #letter .letter--faq--question {
+    width: 259px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 35px;
   }
 }
 @media (max-width: 320px) {
@@ -692,6 +912,64 @@
     width: 185px;
     height: 347px;
     margin: 71px 0 0 0;
+  }
+}
+@media (max-width: 280px) {
+  #cold .cold--summer {
+    font-size: 26px;
+    margin-left: 15px;
+  }
+  #cold .cold--tame {
+    height: 1193px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 12px;
+    width: 221px;
+  }
+  #ween .ween--sheet__block {
+    width: 258px;
+    height: 391px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 34px;
+  }
+  #arvi .say {
+    font-size: 30px;
+  }
+  #glass .glass--block {
+    width: 242px;
+  }
+  #glass .glass--block__cargo--btn {
+    width: 203px;
+  }
+  #glass .glass--center {
+    width: 244px;
+    height: 441px;
+  }
+  #glass .glass--center__vip {
+    width: 245px;
+  }
+  #glass .glass--center__free--west {
+    width: 200px;
+  }
+  #glass .glass--blocking {
+    width: 244px;
+    height: 485px;
+  }
+  #glass .glass--blocking__cargo--btn {
+    width: 202px;
+  }
+  #green .green--merchant--mistress input {
+    width: 101px;
+  }
+  #green .green--merchant--myrtle--purple {
+    width: 243px;
+  }
+  #letter .letter--faq--question {
+    width: 185px;
+  }
+  #footer .footer--sent__see {
+    margin-left: -7px;
   }
 }
 
