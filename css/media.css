@@ -2,9 +2,28 @@
   .container {
     width: 90%;
   }
+
   #header .header .menu__btn {
     display: none;
   }
+
+  #hero .hero--text {
+    padding: 110px 120px;
+  }
+  #header .header .menu__btn {
+    display: none;
+  }
+  #cold .cold {
+    padding-top: 93px;
+    margin-bottom: 134px;
+  }
+  #letter .letter--faq--question {
+    width: 891px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 477px;
+  }
+
 }
 @media (max-width: 1200px) {
   #header .header .menu__btn {
@@ -19,8 +38,17 @@
   #deceit .deceit--eleven--life {
     margin-bottom: 46px;
   }
+  #letter .letter--faq--question {
+    width: 735px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 393px;
+  }
 }
 @media (max-width: 1024px) {
+  #hero .hero--text {
+    padding: 108px 60px;
+  }
   #cold .cold--tame--tiger {
     flex-direction: column;
     text-align: center;
@@ -55,6 +83,41 @@
   #arvi .arvi--global__group--btn {
     width: 330px;
   }
+
+  #letter .letter {
+    flex-direction: column;
+  }
+  #letter .letter--favorite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #letter .letter--faq--question {
+    width: 847px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 194px;
+  }
+  #ween .ween {
+    margin-bottom: 76px;
+  }
+  #arvi .arvi {
+    margin-bottom: 45px;
+  }
+  #glass {
+    padding-top: 71px;
+  }
+  #glass .play {
+    font-size: 14px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 313px;
+  }
+  #into .into--modal--bg--fair {
+    width: 834px;
+    height: 600px;
+    margin: 115px 0 0 0;
+  }
 }
 @media (max-width: 992px) {
   #header .header .menu__btn {
@@ -65,6 +128,163 @@
   }
   #arvi .arvi--global {
     width: 871px;
+
+    height: 993px;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  #letter .letter {
+    flex-direction: column;
+  }
+  #letter .letter--favorite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #letter .letter--faq--question {
+    width: 806px;
+  }
+  #arvi .arvi--global__group {
+    margin-bottom: 118px;
+    text-align: center;
+  }
+  #arvi .arvi--global__group--plan {
+    display: flex;
+    margin-left: 199px;
+  }
+  #arvi .arvi--global__group--btn {
+    width: 330px;
+    margin-left: -161px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 288px;
+  }
+  #into .into--modal--bg--fair {
+    width: 680px;
+    height: 489px;
+    margin: 93px 0 0 0;
+  }
+}
+@media (max-width: 912px) {
+  #header .header--see {
+    display: none;
+  }
+  #header .header .menu__btn {
+    display: block;
+  }
+  #hero .hero--text {
+    padding: 264px 93px;
+  }
+  #hero .hero--text--zento {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 52px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 255px;
+  }
+  #ween .ween--see {
+    padding-left: 163px;
+  }
+  #ween .ween--sheet__block {
+    width: 500px;
+    height: 400px;
+  }
+  #deceit .deceit--habit {
+    margin: 0 0 0 169px;
+  }
+  #glass .glass {
+    flex-direction: column;
+  }
+  #letter .letter--faq--question {
+    width: 754px;
+  }
+  #footer .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  #footer .footer--rio__give {
+    display: flex;
+    margin-left: 329px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 369px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 279px;
+  }
+  #footer .footer--sent__btn {
+    margin-left: 29px;
+  }
+  #footer .footer--like__btn {
+    margin-bottom: 43px;
+  }
+}
+@media (max-width: 820px) {
+  #hero .hero--text {
+    padding: 235px 88px;
+  }
+  #header .header .header--see {
+    display: none;
+  }
+  #header .header .menu__btn {
+    display: block;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 210px;
+  }
+  #ween .ween--see {
+    padding-left: 119px;
+  }
+  #ween .ween--sheet__block {
+    width: 500px;
+    height: 392px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 123px;
+  }
+  #deceit .deceit--habit {
+    margin: 0 0 0 152px;
+  }
+  #deceit .deceit--eleven--life {
+    margin-bottom: 46px;
+    flex-direction: column;
+  }
+  #deceit .deceit--eleven--nice {
+    flex-direction: column;
+    margin-left: -154px;
+  }
+  #deceit .deceit--eleven--place {
+    flex-direction: column;
+    margin-left: -54px;
+  }
+  #glass .glass {
+    flex-direction: column;
+  }
+  #letter .letter--faq--question {
+    width: 664px;
+  }
+  #footer .footer {
+    text-align: center;
+    flex-direction: column;
+  }
+  #footer .footer--like__btn {
+    margin-bottom: 65px;
+  }
+  #footer .footer--rio__give {
+    display: flex;
+    margin-left: 293px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 332px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 230px;
+  }
+  #footer .footer--sent__btn {
+    margin: -15px 0 0 23px;
   }
 }
 @media (max-width: 768px) {
@@ -93,8 +313,83 @@
   #arvi .arvi--global {
     width: 871px;
   }
+
+  #header {
+    height: 70px;
+  }
+  #hero .hero--text {
+    text-align: center;
+    padding: 197px 60px;
+  }
+  #ween .ween--see {
+    padding-left: 89px;
+  }
+  #ween .ween--sheet {
+    flex-direction: column;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 301px;
+  }
+  #arvi .arvi--global__group--plan {
+    display: flex;
+    margin-left: 118px;
+  }
+  #glass .glass {
+    flex-direction: column;
+  }
+  #glass .play {
+    font-size: 13px;
+  }
+  #letter .letter--faq--question {
+    width: 625px;
+  }
+  #footer .footer {
+    text-align: center;
+    flex-direction: column;
+  }
+  #footer .footer--like__btn {
+    margin-bottom: 46px;
+  }
+  #footer .footer--rio__give {
+    margin-left: 266px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 306px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 219px;
+  }
+  #footer .footer--sent__btn {
+    margin: -15px 0 0 32px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 201px;
+  }
+  #into {
+    padding-top: 1px;
+    margin-bottom: 90px;
+  }
+  #into .into--modal--bg--fair {
+    width: 529px;
+    height: 347px;
+    margin: 71px 0 0 0;
+  }
 }
 @media (max-width: 576px) {
+  #hero .hero--text--terco {
+    font-size: 32px;
+  }
+  #hero .hero--text--zento {
+    font-size: 18px;
+  }
+  #hero .hero--text__btn--red {
+    width: 155px;
+    font-size: 16px;
+  }
+  #hero .hero--text__btn--black {
+    height: 39px;
+  }
   #deceit .deceit--eleven--life {
     flex-direction: column;
     margin-left: 43px;
@@ -132,8 +427,75 @@
   #header .header--see {
     display: none;
   }
+
+  #ween .ween--see {
+    padding-left: 30px;
+    font-size: 32px;
+  }
+  #arvi .arvi--global__group--plan {
+    display: flex;
+    margin-left: 13px;
+  }
+  #arvi .arvi--global {
+    width: 871px;
+    height: 814px;
+  }
+  #glass .play {
+    font-size: 18px;
+  }
+  #letter .letter--faq--question--summary {
+    font-size: 17px;
+  }
+  #letter .letter--faq--question {
+    width: 454px;
+  }
+  #footer .footer--rio__give {
+    margin-left: 183px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 223px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 127px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 112px;
+  }
+  #into .into--modal--bg--fair {
+    width: 404px;
+    height: 347px;
+    margin: 71px 0 0 0;
+  }
+}
+@media (max-width: 540px) {
+  #cold .cold--tame {
+    height: 1177px;
+  }
+  #green .green--merchant--mistress input {
+    width: 337px;
+  }
+  #letter .letter--faq--question {
+    width: 420px;
+  }
 }
 @media (max-width: 450px) {
+  #hero .hero--text--terco {
+    font-size: 27px;
+  }
+  #hero .hero--text--zento {
+    font-size: 16px;
+  }
+  #hero .hero--text {
+    padding: 13px 49px;
+  }
+  #hero .hero--text__btn--red {
+    width: 146px;
+    font-size: 15px;
+  }
+  #hero .hero--text__btn--black {
+    font-size: 17px;
+  }
   #cold .cold--tame--tiger--under {
     font-size: 11px;
   }
@@ -173,6 +535,55 @@
   #header .header--see {
     display: none;
   }
+
+  #hero .hero--text {
+    padding: 173px 49px;
+  }
+  #cold .cold {
+    padding-top: 48px;
+    margin-bottom: 134px;
+  }
+  #ween .ween--see {
+    text-align: center;
+    padding-left: 1px;
+    font-size: 32px;
+  }
+  #ween .ween--sheet__block {
+    width: 410px;
+    height: 322px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 200px;
+  }
+  #arvi .arvi--global--img14 {
+    width: 90%;
+    margin-left: 22px;
+  }
+  #arvi .arvi--global {
+    width: 871px;
+    height: 744px;
+  }
+  #letter .letter--faq--question {
+    width: 339px;
+  }
+  #footer .footer--rio__give {
+    margin-left: 124px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 163px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 70px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 51px;
+  }
+  #into .into--modal--bg--fair {
+    width: 294px;
+    height: 347px;
+    margin: 71px 0 0 0;
+  }
 }
 @media (max-width: 425px) {
   #green .green--merchant--mistress input {
@@ -183,6 +594,89 @@
   }
   #header .header--see {
     display: none;
+  }
+
+  #arvi .arvi--global__group--plan {
+    flex-direction: column;
+    margin-left: 55px;
+  }
+  #arvi .arvi--global {
+    width: 871px;
+    height: 814px;
+  }
+  #letter .letter--faq--question {
+    width: 318px;
+  }
+  #ween .ween--sheet__block {
+    width: 396px;
+    height: 366px;
+  }
+}
+@media (max-width: 393px) {
+  #footer .footer--rio__give {
+    margin-left: 101px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 141px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 49px;
+  }
+  #letter .letter--faq--question {
+    width: 291px;
+  }
+  #green .green--merchant--mistress input {
+    width: 206px;
+  }
+  #hero .hero--text {
+    padding: 295px 49px;
+  }
+  #cold .cold--tame--winter--woman--boss {
+    font-size: 12px;
+  }
+  #cold .cold--tame--winter--where {
+    width: 90%;
+    margin: 101px 0 0 -8px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 51px;
+    width: 239px;
+  }
+  #ween .ween--sheet__block {
+    width: 351px;
+    height: 396px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 150px;
+  }
+}
+@media (max-width: 390px) {
+  #cold .cold--tame--winter--where {
+    width: 90%;
+    margin: 101px 0 0 -8px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 23px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 154px;
+  }
+  #ween .ween--sheet__block {
+    width: 368px;
+    height: 381px;
+  }
+  #cold .cold--tame--winter--woman--boss {
+    font-size: 11px;
+  }
+  #cold .cold--tame {
+    height: 1156px;
+  }
+  #green .green--merchant--mistress input {
+    width: 207px;
+  }
+  #letter .letter--faq--question {
+    width: 285px;
   }
 }
 @media (max-width: 380px) {
@@ -231,6 +725,56 @@
   #header .header #menu__toggle:checked ~ .menu__box {
     max-width: min-content;
   }
+
+
+  #cold {
+    background: #010131;
+    padding: 82px 0;
+    margin-bottom: -73px;
+  }
+  #ween .ween--sheet__block {
+    width: 344px;
+    height: 391px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 132px;
+  }
+  #arvi .arvi--global__group--plan {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  #arvi .arvi--global__group--btn {
+    width: 208px;
+    margin-left: -103px;
+  }
+  #letter .letter--faq--question {
+    width: 279px;
+  }
+  #footer .footer--rio__give {
+    margin-left: 93px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 132px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 44px;
+  }
+  #footer .good {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 51px;
+    width: 221px;
+  }
+  #into .into--modal--bg--fair {
+    width: 230px;
+    height: 347px;
+    margin: 71px 0 0 0;
+  }
+
 }
 @media (max-width: 370px) {
   #cold .cold--tame {
@@ -245,8 +789,44 @@
   #header .header #menu__toggle:checked ~ .menu__box {
     max-width: min-content;
   }
+
+}
+@media (max-width: 360px) {
+  #hero .hero--text__btn--red {
+    margin-bottom: 20px;
+  }
+  #hero .hero--text__btn--black {
+    margin-left: 11px;
+  }
+  #cold .cold--tame {
+    height: 1110px;
+  }
+  #green .green--merchant--mistress input {
+    width: 178px;
+  }
+  #letter .letter--faq--question {
+    width: 259px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 35px;
+  }
 }
 @media (max-width: 320px) {
+  #hero .hero--text--terco {
+    font-size: 23px;
+  }
+  #hero .hero--text--zento {
+    font-size: 14px;
+  }
+  #hero .hero--text__btn--red {
+    width: 115px;
+    font-size: 12px;
+  }
+  #hero .hero--text__btn--black {
+    width: 77px;
+    height: 37px;
+    font-size: 15px;
+  }
   #cold .cold--tame {
     height: 1020px;
   }
@@ -286,6 +866,129 @@
   #header .header #menu__toggle:checked ~ .menu__box {
     max-width: min-content;
   }
+
+  #ween .ween--sheet__block {
+    width: 289px;
+    height: 391px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 86px;
+  }
+  #arvi .arvi--global__group--plan {
+    flex-direction: column;
+    margin-left: 8px;
+  }
+  #arvi .arvi--global {
+    width: 871px;
+    height: 839px;
+  }
+  #arvi .arvi--global--img14 {
+    width: 90%;
+    margin-left: 16px;
+  }
+  #glass .glass--block {
+    width: 296px;
+  }
+  #glass .glass--center {
+    width: 296px;
+  }
+  #glass .glass--center__vip {
+    width: 296px;
+  }
+  #glass .glass--blocking {
+    width: 293px;
+  }
+  #letter .letter--favorite--title {
+    font-size: 28px;
+  }
+  #letter .letter--faq--question {
+    width: 231px;
+    margin-left: -2px;
+  }
+  #footer .footer--rio__give {
+    margin-left: 67px;
+  }
+  #footer .footer--rio__green {
+    display: flex;
+    margin-left: 106px;
+  }
+  #footer .footer--sent__see {
+    margin-left: 15px;
+  }
+  #footer .good {
+    flex-direction: column;
+  }
+  #footer .good--free {
+    flex-direction: column;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 32px;
+    width: 221px;
+  }
+  #into .into--modal--bg--fair {
+    width: 185px;
+    height: 347px;
+    margin: 71px 0 0 0;
+  }
+}
+@media (max-width: 280px) {
+  #cold .cold--summer {
+    font-size: 26px;
+    margin-left: 15px;
+  }
+  #cold .cold--tame {
+    height: 1193px;
+  }
+  #into .into--loogin--btn5 {
+    margin-left: 12px;
+    width: 221px;
+  }
+  #ween .ween--sheet__block {
+    width: 258px;
+    height: 391px;
+  }
+  #ween .ween--sheet__block--btn {
+    margin-left: 34px;
+  }
+  #arvi .say {
+    font-size: 30px;
+  }
+  #glass .glass--block {
+    width: 242px;
+  }
+  #glass .glass--block__cargo--btn {
+    width: 203px;
+  }
+  #glass .glass--center {
+    width: 244px;
+    height: 441px;
+  }
+  #glass .glass--center__vip {
+    width: 245px;
+  }
+  #glass .glass--center__free--west {
+    width: 200px;
+  }
+  #glass .glass--blocking {
+    width: 244px;
+    height: 485px;
+  }
+  #glass .glass--blocking__cargo--btn {
+    width: 202px;
+  }
+  #green .green--merchant--mistress input {
+    width: 101px;
+  }
+  #green .green--merchant--myrtle--purple {
+    width: 243px;
+  }
+  #letter .letter--faq--question {
+    width: 185px;
+  }
+  #footer .footer--sent__see {
+    margin-left: -7px;
+  }
+
 }
 
 /*# sourceMappingURL=media.css.map */

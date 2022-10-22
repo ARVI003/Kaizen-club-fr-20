@@ -161,6 +161,78 @@ body {
   color: #6c0404;
 }
 
+
+
+#hero .hero {
+  background: url("/img/Rectangle 2068 (3).png") no-repeat center/cover;
+  min-height: 100vh;
+}
+#hero .hero h2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 2rem 2rem 0 76rem;
+}
+#hero .hero--text {
+  padding: 110px 220px;
+}
+#hero .hero--text--terco {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: white;
+}
+#hero .hero--text--zento {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  padding-top: 15px;
+}
+#hero .hero--text__btn {
+  margin-top: 20px;
+}
+#hero .hero--text__btn--red {
+  width: 178px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#hero .hero--text__btn--red:hover {
+  transform: scale(1.1);
+  background: blue;
+  border: blue;
+}
+#hero .hero--text__btn--black {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #9099A3;
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #9099A3;
+  transition: 0.4s;
+  margin-left: 20px;
+  background: transparent;
+}
+#hero .hero--text__btn--black:hover {
+  transform: scale(1.1);
+  background: transparent;
+  border: 2px solid grey;
+}
+
+
 #cold {
   background: #010131;
   padding: 70px 0;
@@ -403,65 +475,151 @@ body {
   justify-content: space-between;
 }
 #green .green--grammar--hurt {
+
+
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
   color: #FFFFFF;
+  margin: 20px 0;
+  padding-left: 230px;
 }
-#green .green--grammar--master {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #9099A3;
+#ween .ween--sheet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#green .green--merchant--mistress {
-  margin-bottom: 30px;
-}
-#green .green--merchant--mistress--mosque {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #9099A3;
-}
-#green .green--merchant--mistress input {
-  width: 616px;
-  height: 60px;
-  background: rgba(255, 255, 255, 0.2);
+#ween .ween--sheet__block {
+  width: 500px;
+  height: 300px;
+  background: #FFFFFF;
   border-radius: 15px;
-  border: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 0.99);
-  padding: 0 74px;
+  margin: 15px;
 }
-#green .green--merchant--myrtle {
+#ween .ween--sheet__block--vector {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin: 20px;
 }
-#green .green--merchant--myrtle--person {
+#ween .ween--sheet__block--vector__you {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  color: #9099A3;
+}
+#ween .ween--sheet__block--plan {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+  margin: 20px;
+}
+#ween .ween--sheet__block--prorap {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2C3E50;
+  margin: 20px;
 }
-#green .green--merchant--myrtle--purple {
-  width: 280px;
-  height: 60px;
+#ween .ween--sheet__block--btn {
+  width: 180px;
+  height: 40px;
   background: #1A5CFF;
-  box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
   border-radius: 15px;
   border: none;
-  font-weight: 700;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 270px;
+}
+#ween .ween--sheet__block--btn:hover {
+  transform: scale(1.1);
+  color: #6c0404;
+}
+#ween .ween--sheet__block--btn__arko {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin: 0 20px;
+}
+#ween .ween--sheet__block--btn ion-icon {
+  font-weight: 900;
   font-size: 18px;
   line-height: 27px;
   color: #FFFFFF;
 }
-#green .green--merchant--myrtle--purple:hover {
-  border: 2px solid #1A5CFF;
-  background: transparent;
-  color: #1A5CFF;
+
+#arvi .say {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 20px 0;
+}
+#arvi .arvi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#arvi .arvi--global {
+  width: 1040px;
+  height: 400px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+#arvi .arvi--global__group {
+  margin: 40px 30px;
+}
+#arvi .arvi--global__group--arko {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin: 20px 0;
+}
+#arvi .arvi--global__group--you {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+#arvi .arvi--global__group--plan {
+  display: flex;
+}
+#arvi .arvi--global__group--plan__see {
+  display: flex;
+  margin: 30px 0;
+}
+#arvi .arvi--global__group--plan__see--bot {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0 20px;
+}
+#arvi .arvi--global__group--btn {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  position: absolute;
+  width: 441px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  transition: 0.4s;
+}
+#arvi .arvi--global__group--btn:hover {
+  transform: scale(1.1);
+  background: #6c0404;
 }
 
 #deceit {
@@ -546,6 +704,7 @@ body {
   color: #FFFFFF;
 }
 
+
 #fat .call {
   font-weight: 900;
   font-size: 36px;
@@ -618,6 +777,59 @@ body {
   line-height: 18px;
   text-align: center;
   color: #FFFFFF;
+#into {
+  padding-top: 90px;
+  margin-bottom: 90px;
+}
+#into .into--loogin--btn5 {
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid beige;
+  background: transparent;
+  margin-left: 600px;
+  font-size: 20px;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#into .into--loogin--btn5:hover {
+  transform: scale(1.1);
+}
+#into .into--modal {
+  display: none;
+}
+#into .into--modal--bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#into .into--modal--bg--fair {
+  width: 900px;
+  height: 600px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding: 30px 50px;
+  position: relative;
+}
+#into .into--modal--bg--fair--authori {
+  color: #f11818;
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#into .into--modal--bg--fair--authori:hover {
+  transform: scale(1.1);
 }
 
 #glass .seep {
@@ -874,6 +1086,114 @@ body {
   line-height: 24px;
   color: #2C3E50;
   margin: 10px 0;
+}
+
+#green {
+  background: #010132;
+  padding: 60px 0;
+}
+#green .green {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#green .green--grammar--hurt {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+#green .green--grammar--master {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9099A3;
+}
+#green .green--merchant--mistress {
+  margin-bottom: 30px;
+}
+#green .green--merchant--mistress--mosque {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9099A3;
+}
+#green .green--merchant--mistress input {
+  width: 616px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.99);
+  padding: 0 74px;
+}
+#green .green--merchant--myrtle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#green .green--merchant--myrtle--person {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#green .green--merchant--myrtle--purple {
+  width: 280px;
+  height: 60px;
+  background: #1A5CFF;
+  box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+#green .green--merchant--myrtle--purple:hover {
+  border: 2px solid #1A5CFF;
+  background: transparent;
+  color: #1A5CFF;
+}
+
+#letter {
+  padding-top: 60px;
+  margin-bottom: 90px;
+}
+#letter .letter {
+  display: flex;
+  justify-content: space-between;
+}
+#letter .letter--favorite--title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+#letter .letter--favorite--history {
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 176px;
+  color: #1A5CFF;
+  text-align: center;
+}
+#letter .letter--faq--question {
+  width: 1000px;
+  border: 1px solid beige;
+  padding: 10px 30px;
+}
+#letter .letter--faq--question--summary {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+#letter .letter--faq--question--itneci {
+  color: #fff902;
+  font-size: 20px;
 }
 
 #footer .footer {
