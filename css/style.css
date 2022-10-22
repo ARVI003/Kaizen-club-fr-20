@@ -161,6 +161,8 @@ body {
   color: #6c0404;
 }
 
+
+
 #hero .hero {
   background: url("/img/Rectangle 2068 (3).png") no-repeat center/cover;
   min-height: 100vh;
@@ -229,6 +231,7 @@ body {
   background: transparent;
   border: 2px solid grey;
 }
+
 
 #cold {
   background: #010131;
@@ -462,6 +465,163 @@ body {
   background: #6c0404;
 }
 
+#green {
+  background: #010132;
+  padding: 60px 0;
+}
+#green .green {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#green .green--grammar--hurt {
+
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin: 20px 0;
+  padding-left: 230px;
+}
+#ween .ween--sheet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ween .ween--sheet__block {
+  width: 500px;
+  height: 300px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  margin: 15px;
+}
+#ween .ween--sheet__block--vector {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+#ween .ween--sheet__block--vector__you {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  color: #9099A3;
+}
+#ween .ween--sheet__block--plan {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+  margin: 20px;
+}
+#ween .ween--sheet__block--prorap {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2C3E50;
+  margin: 20px;
+}
+#ween .ween--sheet__block--btn {
+  width: 180px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 270px;
+}
+#ween .ween--sheet__block--btn:hover {
+  transform: scale(1.1);
+  color: #6c0404;
+}
+#ween .ween--sheet__block--btn__arko {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin: 0 20px;
+}
+#ween .ween--sheet__block--btn ion-icon {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+#arvi .say {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 20px 0;
+}
+#arvi .arvi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#arvi .arvi--global {
+  width: 1040px;
+  height: 400px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+#arvi .arvi--global__group {
+  margin: 40px 30px;
+}
+#arvi .arvi--global__group--arko {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin: 20px 0;
+}
+#arvi .arvi--global__group--you {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+#arvi .arvi--global__group--plan {
+  display: flex;
+}
+#arvi .arvi--global__group--plan__see {
+  display: flex;
+  margin: 30px 0;
+}
+#arvi .arvi--global__group--plan__see--bot {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0 20px;
+}
+#arvi .arvi--global__group--btn {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  position: absolute;
+  width: 441px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  transition: 0.4s;
+}
+#arvi .arvi--global__group--btn:hover {
+  transform: scale(1.1);
+  background: #6c0404;
+}
+
 #deceit {
   background: #010132;
   padding: 60px 0;
@@ -544,6 +704,79 @@ body {
   color: #FFFFFF;
 }
 
+
+#fat .call {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 30px 0;
+}
+#fat .fat {
+  margin-bottom: 55px;
+}
+#fat .fat--plan {
+  display: flex;
+  justify-content: center;
+}
+#fat .fat--plan__good {
+  margin: 0 15px;
+}
+#fat .fat--plan__good--sent {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin: 0 60px;
+}
+#fat .fat--plan__good img {
+  margin: 0 90px;
+}
+#fat .fat--plan__good--btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#fat .fat--plan__good--rico {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#fat .fat--arvi {
+  display: flex;
+  justify-content: center;
+}
+#fat .fat--arvi__gold {
+  margin: 0 20px;
+}
+#fat .fat--arvi__gold--see {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin: 0 45px;
+}
+#fat .fat--arvi__gold img {
+  margin: 0 70px;
+}
+#fat .fat--arvi__gold--both {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#fat .fat--arvi__gold--rico {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
 #into {
   padding-top: 90px;
   margin-bottom: 90px;
