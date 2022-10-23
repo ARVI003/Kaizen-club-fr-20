@@ -47,7 +47,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #fdfdff;
   margin: 0 20px;
 }
 #header .header--btn {
@@ -56,14 +56,14 @@ body {
 #header .header--btn__you {
   width: 100px;
   height: 40px;
-  background: #1A5CFF;
+  background: blue;
   box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
   border-radius: 15px;
   border: none;
   font-weight: 900;
   font-size: 14px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #fdfdff;
   transition: 0.4s;
   margin: 0 30px;
 }
@@ -134,7 +134,7 @@ body {
 #header .header .menu__item {
   display: block;
   padding: 20px 24px;
-  color: #fdfcfc;
+  color: #fdfdff;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -143,21 +143,21 @@ body {
 }
 #header .header .nav__btn {
   padding: 10px 5px;
-  border: 2px solid #f8f6f6;
+  border: 2px solid #fdfdff;
   border-radius: 10px;
   background: transparent;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  color: #fcfafa;
+  color: #fdfdff;
   margin-left: 10px;
 }
 #header .header .nav__btn:active {
-  background-color: #CFD8DC;
+  background-color: #fdfdff;
   color: #f11818;
 }
 #header .header .menu__item:hover {
-  background-color: #CFD8DC;
+  background-color: #fdfdff;
   color: #6c0404;
 }
 
@@ -169,7 +169,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  color: #FFFFFF;
+  color: #fdfdff;
   padding: 2rem 2rem 0 76rem;
 }
 #hero .hero--text {
@@ -179,13 +179,13 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
-  color: white;
+  color: #fdfdff;
 }
 #hero .hero--text--zento {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  color: white;
+  color: #fdfdff;
   padding-top: 15px;
 }
 #hero .hero--text__btn {
@@ -194,7 +194,7 @@ body {
 #hero .hero--text__btn--red {
   width: 178px;
   height: 40px;
-  background: #1A5CFF;
+  background: blue;
   box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
   border-radius: 15px;
   border: none;
@@ -202,7 +202,7 @@ body {
   font-size: 18px;
   line-height: 27px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #fdfdff;
   transition: 0.4s;
 }
 #hero .hero--text__btn--red:hover {
@@ -238,13 +238,13 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #fdfdff;
   margin-bottom: 30px;
 }
 #cold .cold--tame {
   width: 98%;
   height: 600px;
-  background: #FFFFFF;
+  background: #fdfdff;
   border-radius: 15px;
 }
 #cold .cold--tame--tiger {
@@ -320,7 +320,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #fdfdff;
   margin: 20px 0;
   padding-left: 230px;
 }
@@ -332,7 +332,7 @@ body {
 #ween .ween--sheet__block {
   width: 500px;
   height: 300px;
-  background: #FFFFFF;
+  background: #fdfdff;
   border-radius: 15px;
   margin: 15px;
 }
@@ -364,7 +364,7 @@ body {
 #ween .ween--sheet__block--btn {
   width: 180px;
   height: 40px;
-  background: #1A5CFF;
+  background: blue;
   box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
   border-radius: 15px;
   border: none;
@@ -382,21 +382,21 @@ body {
   font-weight: 900;
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #fdfdff;
   margin: 0 20px;
 }
 #ween .ween--sheet__block--btn ion-icon {
   font-weight: 900;
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #fdfdff;
 }
 
 #arvi .say {
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #fdfdff;
   text-align: center;
   margin: 20px 0;
 }
@@ -447,11 +447,11 @@ body {
   font-weight: 900;
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #fdfdff;
   position: absolute;
   width: 441px;
   height: 40px;
-  background: #1A5CFF;
+  background: blue;
   box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
   border-radius: 15px;
   border: none;
@@ -461,6 +461,7 @@ body {
   transform: scale(1.1);
   background: #6c0404;
 }
+
 
 
 #green {
@@ -547,6 +548,7 @@ body {
 }
 
 
+
 #deceit {
   background: #010132;
   padding: 60px 0;
@@ -558,7 +560,7 @@ body {
 #deceit .deceit .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: #fdfdff;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -583,7 +585,7 @@ body {
   font-weight: 900;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #fdfdff;
   margin: 0 0 0 250px;
 }
 #deceit .deceit--eleven {
@@ -601,7 +603,7 @@ body {
   font-weight: 900;
   font-size: 64px;
   line-height: 96px;
-  color: #FFFFFF;
+  color: #fdfdff;
   margin-left: -70px;
 }
 #deceit .deceit--eleven--nice {
@@ -614,7 +616,7 @@ body {
   font-weight: 900;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #fdfdff;
   margin-left: 90px;
 }
 #deceit .deceit--eleven--place {
@@ -626,14 +628,14 @@ body {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #fdfdff;
 }
 
 #fat .call {
   font-weight: 900;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #fdfdff;
   text-align: center;
   margin: 30px 0;
 }
@@ -651,7 +653,7 @@ body {
   font-weight: 900;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #fdfdff;
   margin: 0 60px;
 }
 #fat .fat--plan__good img {
@@ -662,14 +664,14 @@ body {
   font-size: 14px;
   line-height: 21px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fdfdff;
 }
 #fat .fat--plan__good--rico {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fdfdff;
 }
 #fat .fat--arvi {
   display: flex;
@@ -682,7 +684,7 @@ body {
   font-weight: 900;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #fdfdff;
   margin: 0 45px;
 }
 #fat .fat--arvi__gold img {
@@ -693,14 +695,14 @@ body {
   font-size: 14px;
   line-height: 21px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fdfdff;
 }
 #fat .fat--arvi__gold--rico {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fdfdff;
 }
 
 #into {
@@ -711,11 +713,11 @@ body {
   width: 300px;
   height: 60px;
   border-radius: 10px;
-  border: 2px solid beige;
+  border: 2px solid #fdfdff;
   background: transparent;
   margin-left: 600px;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #fdfdff;
   transition: 0.4s;
 }
 #into .into--loogin--btn5:hover {
@@ -739,7 +741,7 @@ body {
 #into .into--modal--bg--fair {
   width: 900px;
   height: 600px;
-  background: #FFFFFF;
+  background: #fdfdff;
   border-radius: 10px;
   overflow-y: scroll;
   padding: 30px 50px;
@@ -762,7 +764,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #fdfdff;
   text-align: center;
 }
 #glass .play {
@@ -770,7 +772,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fdfdff;
   padding-bottom: 20px;
 }
 #glass .glass {
@@ -811,7 +813,7 @@ body {
   font-size: 12px;
   line-height: 18px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fdfdff;
   width: 80px;
   height: 20px;
   background: #9099A3;
@@ -834,7 +836,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #fdfdff;
   width: 280px;
   height: 50px;
   background: #2C3E50;
@@ -856,17 +858,17 @@ body {
 #glass .glass--center {
   width: 310px;
   height: 400px;
-  background: #FFFFFF;
+  background: #fdfdff;
   border-radius: 15px;
 }
 #glass .glass--center__vip {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #fdfdff;
   width: 310px;
   height: 30px;
-  background: #1A5CFF;
+  background: blue;
   border-radius: 15px 15px 0 0;
   border: none;
 }
@@ -896,7 +898,7 @@ body {
   font-size: 12px;
   line-height: 18px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fdfdff;
   width: 80px;
   height: 20px;
   background: #9099A3;
@@ -919,7 +921,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #fdfdff;
   width: 280px;
   height: 50px;
   background: blue;
@@ -941,7 +943,7 @@ body {
 #glass .glass--blocking {
   width: 310px;
   height: 370px;
-  background: #FFFFFF;
+  background: #fdfdff;
   border-radius: 15px;
   margin: 30px 50px;
 }
@@ -971,7 +973,7 @@ body {
   font-size: 12px;
   line-height: 18px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fdfdff;
   width: 80px;
   height: 20px;
   background: #9099A3;
@@ -994,7 +996,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #fdfdff;
   width: 280px;
   height: 50px;
   background: #2C3E50;
@@ -1014,6 +1016,77 @@ body {
   margin: 10px 0;
 }
 
+#green {
+  background: #010132;
+  padding: 60px 0;
+}
+#green .green {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#green .green--grammar--hurt {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #fdfdff;
+}
+#green .green--grammar--master {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9099A3;
+}
+#green .green--merchant--mistress {
+  margin-bottom: 30px;
+}
+#green .green--merchant--mistress--mosque {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9099A3;
+}
+#green .green--merchant--mistress input {
+  width: 616px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.99);
+  padding: 0 74px;
+}
+#green .green--merchant--myrtle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#green .green--merchant--myrtle--person {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fdfdff;
+}
+#green .green--merchant--myrtle--purple {
+  width: 280px;
+  height: 60px;
+  background: blue;
+  box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fdfdff;
+}
+#green .green--merchant--myrtle--purple:hover {
+  border: 2px solid blue;
+  background: transparent;
+  color: blue;
+}
+
 #letter {
   padding-top: 60px;
   margin-bottom: 90px;
@@ -1026,13 +1099,13 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #fdfdff;
 }
 #letter .letter--favorite--history {
   font-weight: 700;
   font-size: 144px;
   line-height: 176px;
-  color: #1A5CFF;
+  color: blue;
   text-align: center;
 }
 #letter .letter--faq--question {
@@ -1041,7 +1114,7 @@ body {
   padding: 10px 30px;
 }
 #letter .letter--faq--question--summary {
-  color: #FFFFFF;
+  color: #fdfdff;
   font-size: 20px;
   margin-bottom: 20px;
   padding-top: 20px;
@@ -1059,7 +1132,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #fdfdff;
   margin: 20px 0;
 }
 #footer .footer--like__arko {
@@ -1079,10 +1152,10 @@ body {
   font-weight: 900;
   font-size: 14px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #fdfdff;
   width: 100px;
   height: 40px;
-  background: #1A5CFF;
+  background: blue;
   box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
   border-radius: 15px;
   transition: 0.4s;
@@ -1095,7 +1168,7 @@ body {
   font-weight: 900;
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #fdfdff;
 }
 #footer .footer--rio__hero {
   font-weight: 400;
@@ -1112,7 +1185,7 @@ body {
   margin: 0 5px;
 }
 #footer .footer--rio__give--you ion-icon {
-  background: #DADADA;
+  background: #fdfdff;
 }
 #footer .footer--rio__green {
   display: flex;
@@ -1122,28 +1195,28 @@ body {
   margin: 10px 5px;
 }
 #footer .footer--rio__green--arvi ion-icon {
-  background: #DADADA;
+  background: #fdfdff;
 }
 #footer .footer--sent__ricori {
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
-  color: #1A5CFF;
+  color: blue;
   margin-bottom: 20px;
 }
 #footer .footer--sent__ricori span {
-  color: #FFFFFF;
+  color: #fdfdff;
 }
 #footer .footer--sent__btn {
   font-weight: 900;
   font-size: 14px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #fdfdff;
   transition: 0.4s;
   width: 100px;
   height: 40px;
   border: none;
-  background: #1A5CFF;
+  background: blue;
   box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
   border-radius: 15px;
   margin: -15px 0 0 161px;
@@ -1154,7 +1227,7 @@ body {
   height: 40px;
   left: 837px;
   top: 6068px;
-  background: #FFFFFF;
+  background: #fdfdff;
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.05);
   border-radius: 15px;
 }
