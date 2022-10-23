@@ -34,7 +34,7 @@ body {
         font-weight: 500;
         font-size: 14px;
         line-height: 21px;
-        color: #FFFFFF;
+        color: $non;
         margin: 0 20px;
       }
     }
@@ -45,14 +45,14 @@ body {
       &__you {
         width: 100px;
         height: 40px;
-        background: #1A5CFF;
+        background: $in;
         box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
         border-radius: 15px;
         border: none;
         font-weight: 900;
         font-size: 14px;
         line-height: 21px;
-        color: #FFFFFF;
+        color: $non;
         transition: .4s;
         margin: 0 30px;
 
@@ -148,7 +148,7 @@ body {
       display: block;
       padding: 20px 24px;
 
-      color: #fdfcfc;
+      color: $non;
 
       font-family: 'Roboto', sans-serif;
       font-size: 20px;
@@ -161,23 +161,23 @@ body {
 
     .nav__btn {
       padding: 10px 5px;
-      border: 2px solid #f8f6f6;
+      border: 2px solid $non;
       border-radius: 10px;
       background: transparent;
       font-weight: 600;
       font-size: 20px;
       line-height: 24px;
-      color: #fcfafa;
+      color: $non;
       margin-left: 10px;
 
       &:active {
-        background-color: #CFD8DC;
+        background-color:$non;
         color: #f11818;
       }
     }
 
     .menu__item:hover {
-      background-color: #CFD8DC;
+      background-color: $non;
       color: #6c0404;
     }
   }
@@ -193,7 +193,7 @@ body {
       font-weight: 400;
       font-size: 14px;
       line-height: 19px;
-      color: #FFFFFF;
+      color: $non;
       padding: 2rem 2rem 0 76rem;
 
     }
@@ -205,14 +205,14 @@ body {
         font-weight: 700;
         font-size: 36px;
         line-height: 54px;
-        color: white;
+        color: $non;
       }
 
       &--zento {
         font-weight: 400;
         font-size: 18px;
         line-height: 27px;
-        color: white;
+        color:$non;
         padding-top: 15px;
       }
 
@@ -222,7 +222,7 @@ body {
         &--red {
           width: 178px;
           height: 40px;
-          background: #1A5CFF;
+          background: $in;
           box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
           border-radius: 15px;
           border: none;
@@ -230,13 +230,13 @@ body {
           font-size: 18px;
           line-height: 27px;
           text-transform: capitalize;
-          color: #FFFFFF;
+          color: $non;
           transition: .4s;
 
           &:hover {
             transform: scale(1.1);
-            background: blue;
-            border: blue;
+            background: $in;
+            border: $in;
           }
         }
 
@@ -265,7 +265,6 @@ body {
   }
 }
 
-
 #cold {
   background: #010131;
   padding: 70px 0;
@@ -276,14 +275,14 @@ body {
       font-weight: 700;
       font-size: 36px;
       line-height: 54px;
-      color: #FFFFFF;
+      color: $non;
       margin-bottom: 30px;
     }
 
     &--tame {
       width: 98%;
       height: 600px;
-      background: #FFFFFF;
+      background: $non;
       border-radius: 15px;
 
 
@@ -385,7 +384,7 @@ body {
       font-weight: 700;
       font-size: 36px;
       line-height: 54px;
-      color: #FFFFFF;
+      color: $non;
       margin: 20px 0;
       padding-left: 230px;
 
@@ -400,7 +399,7 @@ body {
       &__block {
         width: 500px;
         height: 300px;
-        background: #FFFFFF;
+        background: $non;
         border-radius: 15px;
         margin: 15px;
 
@@ -436,7 +435,7 @@ body {
         &--btn {
           width: 180px;
           height: 40px;
-          background: #1A5CFF;
+          background: $in;
           box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
           border-radius: 15px;
           border: none;
@@ -455,7 +454,7 @@ body {
             font-weight: 900;
             font-size: 18px;
             line-height: 27px;
-            color: #FFFFFF;
+            color: $non;
             margin: 0 20px;
           }
 
@@ -463,7 +462,7 @@ body {
             font-weight: 900;
             font-size: 18px;
             line-height: 27px;
-            color: #FFFFFF;
+            color: $non;
           }
         }
       }
@@ -476,7 +475,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
-    color: #FFFFFF;
+    color: $non;
     text-align: center;
     margin: 20px 0;
   }
@@ -533,11 +532,11 @@ body {
           font-weight: 900;
           font-size: 18px;
           line-height: 27px;
-          color: #FFFFFF;
+          color: $non;
           position: absolute;
           width: 441px;
           height: 40px;
-          background: #1A5CFF;
+          background: $in;
           box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
           border-radius: 15px;
           border: none;
@@ -567,7 +566,7 @@ body {
     .swiper-slide {
       text-align: center;
       font-size: 18px;
-      background: #fff;
+      background: $non;
 
       /* Center slide text vertically */
       display: -webkit-box;
@@ -596,7 +595,7 @@ body {
       font-weight: 900;
       font-size: 36px;
       line-height: 54px;
-      color: #FFFFFF;
+      color:$non;
       margin: 0 0 0 250px;
     }
 
@@ -615,7 +614,7 @@ body {
           font-weight: 900;
           font-size: 64px;
           line-height: 96px;
-          color: #FFFFFF;
+          color:$non;
           margin-left: -70px;
         }
       }
@@ -630,7 +629,7 @@ body {
           font-weight: 900;
           font-size: 36px;
           line-height: 54px;
-          color: #FFFFFF;
+          color: $non;
           margin-left: 90px;
         }
       }
@@ -644,20 +643,19 @@ body {
           font-weight: 400;
           font-size: 24px;
           line-height: 36px;
-          color: #FFFFFF;
+          color: $non;
         }
       }
     }
   }
 }
 
-
 #fat {
   .call {
     font-weight: 900;
     font-size: 36px;
     line-height: 54px;
-    color: #FFFFFF;
+    color:$non;
     text-align: center;
     margin: 30px 0;
   }
@@ -676,7 +674,7 @@ body {
           font-weight: 900;
           font-size: 36px;
           line-height: 54px;
-          color: #FFFFFF;
+          color: $non;
           margin: 0 60px;
         }
 
@@ -689,7 +687,7 @@ body {
           font-size: 14px;
           line-height: 21px;
           text-align: center;
-          color: #FFFFFF;
+          color: $non;
 
         }
 
@@ -698,7 +696,7 @@ body {
           font-size: 12px;
           line-height: 18px;
           text-align: center;
-          color: #FFFFFF;
+          color: $non;
 
         }
       }
@@ -715,7 +713,7 @@ body {
           font-weight: 900;
           font-size: 36px;
           line-height: 54px;
-          color: #FFFFFF;
+          color: $non;
           margin: 0 45px;
         }
 
@@ -728,7 +726,7 @@ body {
           font-size: 14px;
           line-height: 21px;
           text-align: center;
-          color: #FFFFFF;
+          color: $non;
 
         }
 
@@ -737,7 +735,7 @@ body {
           font-size: 12px;
           line-height: 18px;
           text-align: center;
-          color: #FFFFFF;
+          color: $non;
 
         }
       }
@@ -757,11 +755,11 @@ body {
         width: 300px;
         height: 60px;
         border-radius: 10px;
-        border: 2px solid beige;
+        border: 2px solid $non;
         background: transparent;
         margin-left: 600px;
         font-size: 20px;
-        color: #FFFFFF;
+        color: $non;
         transition: .4s;
 
         &:hover {
@@ -789,7 +787,7 @@ body {
         &--fair {
           width: 900px;
           height: 600px;
-          background: #FFFFFF;
+          background: $non;
           border-radius: 10px;
           overflow-y: scroll;
           padding: 30px 50px;
@@ -819,7 +817,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
-    color: #FFFFFF;
+    color: $non;
     text-align: center;
   }
 
@@ -828,7 +826,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #FFFFFF;
+    color:$non;
     padding-bottom: 20px;
   }
 
@@ -875,7 +873,7 @@ body {
         font-size: 12px;
         line-height: 18px;
         text-align: center;
-        color: #FFFFFF;
+        color: $non;
         width: 80px;
         height: 20px;
         background: #9099A3;
@@ -900,7 +898,7 @@ body {
           font-weight: 700;
           font-size: 18px;
           line-height: 27px;
-          color: #FFFFFF;
+          color: $non;
           width: 280px;
           height: 50px;
           background: #2C3E50;
@@ -928,17 +926,17 @@ body {
 
       width: 310px;
       height: 400px;
-      background: #FFFFFF;
+      background: $non;
       border-radius: 15px;
 
       &__vip {
         font-weight: 500;
         font-size: 14px;
         line-height: 21px;
-        color: #FFFFFF;
+        color: $non;
         width: 310px;
         height: 30px;
-        background: #1A5CFF;
+        background: $in;
         border-radius: 15px 15px 0 0;
         border: none;
       }
@@ -973,7 +971,7 @@ body {
         font-size: 12px;
         line-height: 18px;
         text-align: center;
-        color: #FFFFFF;
+        color: $non;
         width: 80px;
         height: 20px;
         background: #9099A3;
@@ -998,10 +996,10 @@ body {
           font-weight: 700;
           font-size: 18px;
           line-height: 27px;
-          color: #FFFFFF;
+          color: $non;
           width: 280px;
           height: 50px;
-          background: blue;
+          background: $in;
           border-radius: 15px;
           border: none;
           transition: .4s;
@@ -1026,7 +1024,7 @@ body {
 
       width: 310px;
       height: 370px;
-      background: #FFFFFF;
+      background: $non;
       border-radius: 15px;
       margin: 30px 50px;
 
@@ -1060,7 +1058,7 @@ body {
         font-size: 12px;
         line-height: 18px;
         text-align: center;
-        color: #FFFFFF;
+        color: $non;
         width: 80px;
         height: 20px;
         background: #9099A3;
@@ -1085,7 +1083,7 @@ body {
           font-weight: 700;
           font-size: 18px;
           line-height: 27px;
-          color: #FFFFFF;
+          color: $non;
           width: 280px;
           height: 50px;
           background: #2C3E50;
@@ -1111,7 +1109,6 @@ body {
   }
 }
 
-
 #green {
   background: #010132;
   padding: 60px 0;
@@ -1126,7 +1123,7 @@ body {
         font-weight: 700;
         font-size: 36px;
         line-height: 54px;
-        color: #FFFFFF;
+        color: $non;
       }
 
       &--master {
@@ -1174,25 +1171,25 @@ body {
           font-weight: 400;
           font-size: 16px;
           line-height: 20px;
-          color: #FFFFFF;
+          color:$non;
         }
 
         &--purple {
           width: 280px;
           height: 60px;
-          background: #1A5CFF;
+          background: $in;
           box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
           border-radius: 15px;
           border: none;
           font-weight: 700;
           font-size: 18px;
           line-height: 27px;
-          color: #FFFFFF;
+          color: $non;
 
           &:hover {
-            border: 2px solid #1A5CFF;
+            border: 2px solid $in;
             background: transparent;
-            color: #1A5CFF;
+            color: $in;
           }
         }
       }
@@ -1213,14 +1210,14 @@ body {
         font-weight: 700;
         font-size: 36px;
         line-height: 54px;
-        color: #FFFFFF;
+        color: $non;
       }
 
       &--history {
         font-weight: 700;
         font-size: 144px;
         line-height: 176px;
-        color: #1A5CFF;
+        color: $in;
         text-align: center;
       }
     }
@@ -1234,7 +1231,7 @@ body {
 
 
         &--summary {
-          color: #FFFFFF;
+          color: $non;
           font-size: 20px;
           margin-bottom: 20px;
           padding-top: 20px;
@@ -1249,7 +1246,6 @@ body {
   }
 }
 
-
 #footer {
   .footer {
     display: flex;
@@ -1260,7 +1256,7 @@ body {
         font-weight: 700;
         font-size: 18px;
         line-height: 27px;
-        color: #FFFFFF;
+        color: $non;
         margin: 20px 0;
       }
 
@@ -1284,10 +1280,10 @@ body {
         font-weight: 900;
         font-size: 14px;
         line-height: 21px;
-        color: #FFFFFF;
+        color: $non;
         width: 100px;
         height: 40px;
-        background: #1A5CFF;
+        background: $in;
         box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
         border-radius: 15px;
         transition: .4s;
@@ -1304,7 +1300,7 @@ body {
         font-weight: 900;
         font-size: 18px;
         line-height: 27px;
-        color: #FFFFFF;
+        color:$non;
 
       }
 
@@ -1324,7 +1320,7 @@ body {
           margin: 0 5px;
 
           ion-icon {
-            background: #DADADA;
+            background: $non;
           }
         }
       }
@@ -1337,7 +1333,7 @@ body {
           margin: 10px 5px;
 
           ion-icon {
-            background: #DADADA;
+            background: $non;
           }
         }
       }
@@ -1348,11 +1344,11 @@ body {
         font-weight: 700;
         font-size: 12px;
         line-height: 18px;
-        color: #1A5CFF;
+        color: $in;
         margin-bottom: 20px;
 
         span {
-          color: #FFFFFF;
+          color: $non;
         }
 
       }
@@ -1361,12 +1357,12 @@ body {
         font-weight: 900;
         font-size: 14px;
         line-height: 21px;
-        color: #FFFFFF;
+        color:$non;
         transition: .4s;
         width: 100px;
         height: 40px;
         border: none;
-        background: #1A5CFF;
+        background: $in;
         box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
         border-radius: 15px;
         margin: -15px 0 0 161px;
@@ -1378,7 +1374,7 @@ body {
         height: 40px;
         left: 837px;
         top: 6068px;
-        background: #FFFFFF;
+        background: $non;
         box-shadow: 0 5px 8px rgba(0, 0, 0, 0.05);
         border-radius: 15px;
 
