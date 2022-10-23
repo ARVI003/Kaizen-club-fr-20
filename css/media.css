@@ -2,11 +2,9 @@
   .container {
     width: 90%;
   }
-
   #header .header .menu__btn {
     display: none;
   }
-
   #hero .hero--text {
     padding: 110px 120px;
   }
@@ -23,7 +21,6 @@
   #into .into--loogin--btn5 {
     margin-left: 477px;
   }
-
 }
 @media (max-width: 1200px) {
   #header .header .menu__btn {
@@ -46,6 +43,11 @@
   }
 }
 @media (max-width: 1024px) {
+  #fat .fat--plan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   #hero .hero--text {
     padding: 108px 60px;
   }
@@ -80,10 +82,12 @@
   #header .header--btn {
     margin-left: 160px;
   }
+  #header .header--btn {
+    margin-left: 160px;
+  }
   #arvi .arvi--global__group--btn {
     width: 330px;
   }
-
   #letter .letter {
     flex-direction: column;
   }
@@ -91,6 +95,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  #header .header .menu__btn {
+    display: none;
+  }
+  #header .header--btn {
+    margin-left: 160px;
+  }
+  #arvi .arvi--global {
+    width: 871px;
   }
   #letter .letter--faq--question {
     width: 847px;
@@ -118,6 +131,18 @@
     height: 600px;
     margin: 115px 0 0 0;
   }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
+  }
+  #header .header .menu__btn {
+    display: block;
+  }
+  #arvi .arvi--global {
+    width: 871px;
+  }
 }
 @media (max-width: 992px) {
   #header .header .menu__btn {
@@ -128,7 +153,6 @@
   }
   #arvi .arvi--global {
     width: 871px;
-
     height: 993px;
     flex-direction: column;
     margin-bottom: 100px;
@@ -163,6 +187,12 @@
     width: 680px;
     height: 489px;
     margin: 93px 0 0 0;
+  }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
   }
 }
 @media (max-width: 912px) {
@@ -220,10 +250,23 @@
   #footer .footer--like__btn {
     margin-bottom: 43px;
   }
+  #header .header--btn {
+    margin-left: 200px;
+    display: none;
+  }
+  #header .header--see {
+    display: none;
+  }
 }
 @media (max-width: 820px) {
   #hero .hero--text {
     padding: 235px 88px;
+  }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
   }
   #header .header .header--see {
     display: none;
@@ -272,6 +315,12 @@
   #footer .footer--like__btn {
     margin-bottom: 65px;
   }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
+  }
   #footer .footer--rio__give {
     display: flex;
     margin-left: 293px;
@@ -285,6 +334,12 @@
   }
   #footer .footer--sent__btn {
     margin: -15px 0 0 23px;
+  }
+  #header .header--btn {
+    display: none;
+  }
+  #header .header--see {
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -313,7 +368,6 @@
   #arvi .arvi--global {
     width: 871px;
   }
-
   #header {
     height: 70px;
   }
@@ -427,7 +481,6 @@
   #header .header--see {
     display: none;
   }
-
   #ween .ween--see {
     padding-left: 30px;
     font-size: 32px;
@@ -535,7 +588,6 @@
   #header .header--see {
     display: none;
   }
-
   #hero .hero--text {
     padding: 173px 49px;
   }
@@ -584,8 +636,17 @@
     height: 347px;
     margin: 71px 0 0 0;
   }
+  #header .header .menu__box {
+    width: 262px;
+  }
 }
 @media (max-width: 425px) {
+  #fat .fat--arvi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
   #green .green--merchant--mistress input {
     width: 235px;
   }
@@ -595,7 +656,6 @@
   #header .header--see {
     display: none;
   }
-
   #arvi .arvi--global__group--plan {
     flex-direction: column;
     margin-left: 55px;
@@ -725,8 +785,6 @@
   #header .header #menu__toggle:checked ~ .menu__box {
     max-width: min-content;
   }
-
-
   #cold {
     background: #010131;
     padding: 82px 0;
@@ -774,7 +832,6 @@
     height: 347px;
     margin: 71px 0 0 0;
   }
-
 }
 @media (max-width: 370px) {
   #cold .cold--tame {
@@ -789,7 +846,6 @@
   #header .header #menu__toggle:checked ~ .menu__box {
     max-width: min-content;
   }
-
 }
 @media (max-width: 360px) {
   #hero .hero--text__btn--red {
@@ -866,7 +922,6 @@
   #header .header #menu__toggle:checked ~ .menu__box {
     max-width: min-content;
   }
-
   #ween .ween--sheet__block {
     width: 289px;
     height: 391px;
@@ -988,7 +1043,9 @@
   #footer .footer--sent__see {
     margin-left: -7px;
   }
-
+  #fat .call {
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=media.css.map */

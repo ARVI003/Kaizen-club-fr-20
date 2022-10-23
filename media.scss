@@ -64,6 +64,12 @@
 
 @media (max-width: 1024px) {
 
+  #fat .fat--plan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   #hero .hero--text {
     padding: 108px 60px;
   }
@@ -111,7 +117,6 @@
   }
 
 
-
   #header .header--btn {
     margin-left: 160px;
   }
@@ -143,60 +148,61 @@
 
   #arvi .arvi--global {
     width: 871px;
-
-  #letter .letter--faq--question {
-    width: 847px;
   }
 
-  #ween .ween--sheet__block--btn {
-    margin-left: 194px;
-  }
+    #letter .letter--faq--question {
+      width: 847px;
+    }
 
-  #ween .ween{
-    margin-bottom: 76px;
+    #ween .ween--sheet__block--btn {
+      margin-left: 194px;
+    }
 
-  }
+    #ween .ween {
+      margin-bottom: 76px;
 
-  #arvi .arvi {
-    margin-bottom: 45px;
-  }
+    }
 
-
-  #glass{
-    padding-top: 71px;
-  }
-
-  #glass .play {
-    font-size: 14px;
-  }
+    #arvi .arvi {
+      margin-bottom: 45px;
+    }
 
 
+    #glass {
+      padding-top: 71px;
+    }
 
-  #into .into--loogin--btn5 {
-    margin-left: 313px;
-  }
+    #glass .play {
+      font-size: 14px;
+    }
 
-  #into .into--modal--bg--fair {
-    width: 834px;
-    height: 600px;
-    margin: 115px 0 0 0;
-  }
 
-  #header .header--btn {
-    display: none;
-  }
+    #into .into--loogin--btn5 {
+      margin-left: 313px;
+    }
 
-  #header .header--see {
-    display: none;
-  }
+    #into .into--modal--bg--fair {
+      width: 834px;
+      height: 600px;
+      margin: 115px 0 0 0;
+    }
 
-  #header .header .menu__btn {
-    display: block;
-  }
+    #header .header--btn {
+      display: none;
+    }
 
-  #arvi .arvi--global {
-    width: 871px;
-  }
+    #header .header--see {
+      display: none;
+    }
+
+    #header .header .menu__btn {
+      display: block;
+    }
+
+    #arvi .arvi--global {
+      width: 871px;
+    }
+
 
 }
 
@@ -365,7 +371,7 @@
     display: none;
   }
 
-}
+
 
   #header .header .header--see {
 
@@ -440,40 +446,34 @@
     display: none;
   }
 
-  #header .header #menu__toggle:checked ~ .menu__box {
-    max-width: min-content;
 
-  #footer .footer--rio__give {
-    display: flex;
-    margin-left: 293px;
-  }
+    #footer .footer--rio__give {
+      display: flex;
+      margin-left: 293px;
+    }
 
-  #footer .footer--rio__green {
-    display: flex;
-    margin-left: 332px;
+    #footer .footer--rio__green {
+      display: flex;
+      margin-left: 332px;
 
-  }
+    }
 
-  #footer .footer--sent__see {
-    margin-left: 230px;
-  }
+    #footer .footer--sent__see {
+      margin-left: 230px;
+    }
 
-  #footer .footer--sent__btn {
-    margin: -15px 0 0 23px;
-  }
+    #footer .footer--sent__btn {
+      margin: -15px 0 0 23px;
+    }
 
 
-  #header .header--btn {
-    display: none;
-  }
+    #header .header--btn {
+      display: none;
+    }
 
-  #header .header--see {
-    display: none;
-  }
-
-  #header .header #menu__toggle:checked ~ .menu__box {
-    max-width: min-content;
-  }
+    #header .header--see {
+      display: none;
+    }
 
 
 
@@ -879,11 +879,23 @@
   }
 
 
+  #header .header .menu__box {
+
+    width: 262px;
+  }
+
 
 
 }
 
 @media (max-width: 425px) {
+
+  #fat .fat--arvi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
 
   #green .green--merchant--mistress input {
     width: 235px;
@@ -1423,10 +1435,15 @@
     margin-left: -7px;
   }
 
-
-
+  #fat .call {
+    font-size: 30px;
+  }
 
 
 }
+
+
+
+
 
 
