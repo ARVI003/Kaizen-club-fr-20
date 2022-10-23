@@ -265,6 +265,7 @@ body {
   }
 }
 
+
 #cold {
   background: #010131;
   padding: 70px 0;
@@ -552,6 +553,129 @@ body {
   }
 }
 
+
+#deceit {
+  background: #010132;
+  padding: 60px 0;
+
+#green {
+  background: #010132;
+  padding: 60px 0;
+
+  .green {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    &--grammar {
+      &--hurt {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        color: #FFFFFF;
+      }
+  .deceit {
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+
+    &--sheet {
+
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+
+
+      &__block {
+        width: 500px;
+        height: 300px;
+        background: #FFFFFF;
+        border-radius: 15px;
+        margin: 15px;
+
+        &--vector {
+          display: flex;
+          justify-content: space-between;
+          margin: 20px;
+
+          &__you {
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 36px;
+            color: #9099A3;
+          }
+        }
+
+        &--plan {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 30px;
+          color: #2C3E50;
+          margin: 20px;
+        }
+
+        &--prorap {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #2C3E50;
+          margin: 20px;
+        }
+
+        &--btn {
+          width: 180px;
+          height: 40px;
+          background: #1A5CFF;
+          box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+          border-radius: 15px;
+          border: none;
+          transition: .4s;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 270px;
+
+          &:hover {
+            transform: scale(1.1);
+            color: #6c0404;
+          }
+
+          &__arko {
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FFFFFF;
+            margin: 0 20px;
+          }
+
+          ion-icon {
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 #deceit {
   background: #010132;
   padding: 60px 0;
@@ -577,6 +701,7 @@ body {
       -ms-flex-pack: center;
       -webkit-justify-content: center;
       justify-content: center;
+
       -webkit-box-align: center;
       -ms-flex-align: center;
       -webkit-align-items: center;
@@ -649,6 +774,7 @@ body {
     }
   }
 }
+
 
 #fat {
   .call {
@@ -1112,6 +1238,7 @@ body {
 }
 
 
+
 #green {
   background: #010132;
   padding: 60px 0;
@@ -1123,11 +1250,24 @@ body {
 
     &--grammar {
       &--hurt {
+
+#letter {
+  padding-top: 60px;
+  margin-bottom: 90px;
+
+  .letter {
+    display: flex;
+    justify-content: space-between;
+
+    &--favorite {
+      &--title {
+
         font-weight: 700;
         font-size: 36px;
         line-height: 54px;
         color: #FFFFFF;
       }
+
 
       &--master {
         font-weight: 400;
@@ -1162,7 +1302,24 @@ body {
           padding: 0 74px;
         }
 
+      &--history {
+        font-weight: 700;
+        font-size: 144px;
+        line-height: 176px;
+        color: #1A5CFF;
+        text-align: center;
+      }
+    }
 
+    &--faq {
+
+
+      &--question {
+        width: 1000px;
+        border: 1px solid beige;
+        padding: 10px 30px;
+
+ 
       }
 
       &--myrtle {
@@ -1174,8 +1331,16 @@ body {
           font-weight: 400;
           font-size: 16px;
           line-height: 20px;
+
+
+        &--summary {
+ 
           color: #FFFFFF;
+          font-size: 20px;
+          margin-bottom: 20px;
+          padding-top: 20px;
         }
+
 
         &--purple {
           width: 280px;
@@ -1194,27 +1359,45 @@ body {
             background: transparent;
             color: #1A5CFF;
           }
+
+        &--itneci {
+          color: #fff902;
+          font-size: 20px;
+
         }
       }
     }
   }
 }
 
+
 #letter {
   padding-top: 60px;
   margin-bottom: 90px;
 
   .letter {
+
+
+#footer {
+  .footer {
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+
 
     &--favorite {
       &--title {
+
+    &--like {
+      &__see {
+
         font-weight: 700;
-        font-size: 36px;
-        line-height: 54px;
+        font-size: 18px;
+        line-height: 27px;
         color: #FFFFFF;
+        margin: 20px 0;
       }
+
 
       &--history {
         font-weight: 700;
@@ -1232,6 +1415,59 @@ body {
         border: 1px solid beige;
         padding: 10px 30px;
 
+      &__arko {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #9099A3;
+        margin: 20px 0;
+      }
+
+      &__arvi {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #9099A3;
+
+      }
+
+      &__btn {
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        width: 100px;
+        height: 40px;
+        background: #1A5CFF;
+        box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
+        border-radius: 15px;
+        transition: .4s;
+
+        &:hover {
+          transform: scale(1.1);
+          background: #6c0404;
+        }
+      }
+    }
+
+    &--rio {
+      &__plan {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+
+      }
+
+
+      &__hero {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #9099A3;
+        margin: 20px 0;
+      }
+
 
         &--summary {
           color: #FFFFFF;
@@ -1248,6 +1484,19 @@ body {
     }
   }
 }
+      &__give {
+        display: flex;
+
+        &--you {
+          font-size: 30px;
+          margin: 0 5px;
+
+
+          ion-icon {
+            background: #DADADA;
+          }
+        }
+      }
 
 
 #footer {
@@ -1295,9 +1544,22 @@ body {
         &:hover {
           transform: scale(1.1);
           background: #6c0404;
+
+      &__green {
+        display: flex;
+
+        &--arvi {
+          font-size: 30px;
+          margin: 10px 5px;
+
+          ion-icon {
+            background: #DADADA;
+          }
+
         }
       }
     }
+
 
     &--rio {
       &__plan {
@@ -1339,8 +1601,22 @@ body {
           ion-icon {
             background: #DADADA;
           }
+
+    &--sent {
+      &__ricori {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        color: #1A5CFF;
+        margin-bottom: 20px;
+
+        span {
+          color: #FFFFFF;
+
         }
+
       }
+
     }
 
     &--sent {
@@ -1356,6 +1632,7 @@ body {
         }
 
       }
+
 
       &__btn {
         font-weight: 900;
